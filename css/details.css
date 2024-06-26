@@ -1,0 +1,43 @@
+
+
+body{
+    color: white !important;
+    font-family: "Comfortaa", cursive;
+}
+h3{
+    color: rgb(255, 255, 255) !important;
+    text-align: center !important;
+    font-family: "Nerko One", cursive;
+}
+.game-data{
+    position: absolute;
+    left: 32%;
+     max-width: 900px !important; 
+    white-space: normal; 
+    overflow-wrap: break-word; 
+    margin-bottom:5px;
+    
+}
+.bg-info {
+    color: #000 !important;
+    padding: 2px ;
+    background-color: rgba(13, 202, 240,0) !important;
+    border-radius: 5px;
+    font-family: "Nerko One", cursive;
+    margin: 5px;
+}
+.gameTitle{
+    font-family: "Nerko One", cursive;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.gameDetails{
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+#btnClose{
+    position: absolute;
+    top: 5%;
+    left: 85%;
+}
