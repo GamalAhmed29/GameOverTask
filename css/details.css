@@ -1,9 +1,24 @@
-
-
 body{
     color: white !important;
     font-family: "Comfortaa", cursive;
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3A497B;
+  border-radius: 10px;
+}
+
 h3{
     color: rgb(255, 255, 255) !important;
     text-align: center !important;
