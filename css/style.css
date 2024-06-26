@@ -104,7 +104,7 @@ hr {
   border-radius: 10px;
 }
 .details .platform {
-  transform: translateX(110%) !important;
+  transform: translateX(150%) !important;
   background-color: #3c4248;
   padding: 0px 10px;
   border-radius: 10px;
@@ -157,4 +157,11 @@ hr {
   .description{
     top: 75%;
   }
+  .details  {
+    top: 92%; 
+}
+.details .platform{
+    transform: translateX(170%) !important;
+}
+
 }
