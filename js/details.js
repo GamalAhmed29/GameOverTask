@@ -63,7 +63,9 @@ class GameDetails {
         <p><strong class="gameDetails">Platform:</strong> <span id="gamePlatform" class="bg-info">${gameDetails.platform}</span></p>
         <p><strong class="gameDetails">Status:</strong> <span id="gamePublisher" class="bg-info">${gameDetails.status}</span></p>
         <div class="gameDetails" id="gameDescription">${gameDetails.description}</div>
+         <button class="btn btn-outline-secondary buttonn" data-game-id="${gameDetails.id}">Veiw</button>
       </div>
+      
     `;
 
     document.getElementById("row").innerHTML = content;

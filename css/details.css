@@ -41,3 +41,24 @@ h3{
     top: 5%;
     left: 85%;
 }
+.buttonn{
+    width: 80px;
+    padding: 5px;
+    height:auto;
+    background-color: #272B30 !important;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    border: 1px solid yellow !important;
+}
+
+@media (max-width: 575.98px) {
+
+    .game-data{
+        left: 10px;
+        top:52%;
+    }
+  
+        
+
+  }

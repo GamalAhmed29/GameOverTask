@@ -80,7 +80,7 @@ class GameDisplay {
           <div class="card my-4" data-game-id="${gameId}">
             <img class="thumbnail" src="${thumbnailUrl}" alt="${limitedGames[i].title} Thumbnail">
             <h6 class="title">${limitedGames[i].title}</h6>
-            <button class="btn btn-info">free</button>
+            <button class="btn btn-info">Free</button>
             <p class="description">${description}...</p>
             <hr>
             <div class="details">

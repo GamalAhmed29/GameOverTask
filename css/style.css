@@ -57,6 +57,10 @@ ul li a {
     overflow: hidden;
     cursor: pointer;
 }
+.card:hover button {
+    background-color: rgb(13, 110, 253) !important;
+   
+}
 
 button {
     line-height: 1; 
@@ -64,11 +68,13 @@ button {
     position: absolute;
     top: 52%; 
     left: 70%; 
+    font-size: 14px !important;
     margin: 20px;
     color: white !important; 
     border: none !important; 
     cursor: pointer; 
     text-align: center;
+     font-family: "Comfortaa", sans-serif !important;
     height: 30px;
     padding: 5px!important;
 }
@@ -137,3 +143,15 @@ hr{
         .loader-hidden {
             display: none;
         }
+
+
+@media (max-width: 575.98px) {
+
+        .navbar-toggler {
+           display: flex;
+           transform: translateY(-35px) !important;
+        }
+  
+        
+
+  }
