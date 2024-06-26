@@ -1,6 +1,6 @@
-body{
-    color: white !important;
-    font-family: "Comfortaa", cursive;
+body {
+  color: white !important;
+  font-family: "Comfortaa", cursive;
 }
 
 ::-webkit-scrollbar {
@@ -15,67 +15,63 @@ body{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #3A497B;
+  background: #3a497b;
   border-radius: 10px;
 }
 
-h3{
-    color: rgb(255, 255, 255) !important;
-    text-align: center !important;
-    font-family: "Nerko One", cursive;
+h3 {
+  color: rgb(255, 255, 255) !important;
+  text-align: center !important;
+  font-family: "Nerko One", cursive;
 }
-.game-data{
-    position: absolute;
-    left: 32%;
-     max-width: 900px !important; 
-    white-space: normal; 
-    overflow-wrap: break-word; 
-    margin-bottom:5px;
-    
+.game-data {
+  position: absolute;
+  left: 32%;
+  max-width: 900px !important;
+  white-space: normal;
+  overflow-wrap: break-word;
+  margin-bottom: 5px;
 }
 .bg-info {
-    color: #000 !important;
-    padding: 2px ;
-    background-color: rgba(13, 202, 240,0) !important;
-    border-radius: 5px;
-    font-family: "Nerko One", cursive;
-    margin: 5px;
+  color: #000 !important;
+  padding: 2px;
+  background-color: rgba(13, 202, 240, 0) !important;
+  border-radius: 5px;
+  font-family: "Nerko One", cursive;
+  margin: 5px;
 }
-.gameTitle{
-    font-family: "Nerko One", cursive;
-    font-weight: 500;
-    line-height: 1.2;
+.gameTitle {
+  font-family: "Nerko One", cursive;
+  font-weight: 500;
+  line-height: 1.2;
 }
-.gameDetails{
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 700;
-    line-height: 1.2;
+.gameDetails {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
 }
-#btnClose{
-    position: absolute;
-    top: 5%;
-    left: 85%;
+#btnClose {
+  position: absolute;
+  top: 5%;
+  left: 85%;
 }
-.buttonn{
-    width: 80px;
-    padding: 5px;
-    height:auto;
-    background-color: #272B30 !important;
-    position: absolute;
-    top: 100% !important;
-    left: 0%;
-    border: 1px solid yellow !important;
+.buttonn {
+  width: 80px;
+  padding: 5px;
+  height: auto;
+  background-color: #272b30 !important;
+  position: absolute;
+  top: 100% !important;
+  left: 0%;
+  border: 1px solid yellow !important;
 }
 
 @media (max-width: 575.98px) {
-
-    .game-data{
-        left: 10px;
-        top:50%;
-    }
-    #btnClose{
-         top: 5% !important;
-    }
-        
-
+  .game-data {
+    left: 10px;
+    top: 50%;
   }
+  #btnClose {
+    top: 5% !important;
+  }
+}

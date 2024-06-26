@@ -15,20 +15,9 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #3A497B;
+  background: #3a497b;
   border-radius: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 header img {
   max-height: 30vh;
@@ -172,25 +161,23 @@ hr {
     display: flex;
     transform: translateY(-35px) !important;
   }
-  .card{
+  .card {
     height: 320px !important;
   }
   .title {
     top: 67%;
   }
   button {
-    
     top: 59% !important;
     left: 77%;
   }
-  .description{
+  .description {
     top: 75%;
   }
-  .details  {
-    top: 92%; 
-}
-.details .platform{
+  .details {
+    top: 92%;
+  }
+  .details .platform {
     transform: translateX(170%) !important;
-}
-
+  }
 }
