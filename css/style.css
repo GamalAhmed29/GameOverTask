@@ -66,11 +66,13 @@ ul li a {
   padding: 10px;
   transition: all 1s;
   font-family: "Comfortaa", sans-serif;
+  filter: grayscale(0.8);
 }
 .card:hover {
   transform: scale(1.1);
   overflow: hidden;
   cursor: pointer;
+  filter: grayscale(0);
 }
 .card:hover button {
   background-color: rgb(13, 110, 253) !important;
